@@ -8,21 +8,26 @@ Starter Python project layout.
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate
 ```
 
-2) Install dependencies
+2) Run via the JupyterHub helper script (required for now)
 
 ```bash
-pip install -r requirements.txt
+./scripts/run_model.sh
 ```
+
+JupyterHub URL (QMUL):
+
+```
+https://hub.comp-teach.qmul.ac.uk/user/{username}/proxy/8501/
+```
+
+Optional local run (if you have compute):
+
+~to be written~
 
 ## Layout
 
 - `src/` Python package source
 - `scripts/` helper scripts (optional)
 - `requirements.txt` project dependencies
-
-## Notes
-
-Add your runner script in the repo root as planned.
