@@ -3,7 +3,7 @@ set -e
 
 # Go to project root
 echo "Moving to proj root"
-cd ~/self-hosted-ai
+cd ~/local-llm
 
 echo "Updating repo"
 old_rev=$(git rev-parse HEAD 2>/dev/null || true)
